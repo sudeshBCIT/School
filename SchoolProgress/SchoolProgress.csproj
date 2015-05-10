@@ -234,6 +234,7 @@
     <Content Include="Global.asax" />
     <Content Include="student.aspx" />
     <Content Include="studentreport.aspx" />
+    <Content Include="try.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -308,6 +309,13 @@
     </Compile>
     <Compile Include="studentreport.aspx.designer.cs">
       <DependentUpon>studentreport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="try.aspx.cs">
+      <DependentUpon>try.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="try.aspx.designer.cs">
+      <DependentUpon>try.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
