@@ -13,5 +13,10 @@ namespace SchoolProgress
         {
 
         }
+
+        protected void btnsave_Click(object sender, EventArgs e)
+        {
+            Response.Write("sudesh");
+        }
     }
 }
